@@ -1,0 +1,71 @@
+html {
+    font-size: 62.5%;
+
+}
+body{
+    margin: 0;
+    border: 0;
+    background-color: #e1e1e1;
+}
+/* 顶部导航栏 start	 */
+.top-bar {
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: #333;
+    font-size: 1.2rem;
+    margin: 0;
+    border: 0;
+}
+
+.top-bar ul{
+    list-style-type: none;
+}
+.top-bar li a{
+    list-style-type: none;
+    padding: 0 1rem;
+    text-decoration : none;
+}
+
+.wrap {
+    margin: 0 auto;
+    margin: 0;
+    border: 0;
+}
+
+.top-bar .wrap .top-bar-left {
+    float: left;
+    margin: 0;
+}
+
+.top-bar .wrap .top-bar-right {
+    float: right;
+    margin: 0;
+}
+.top-bar .wrap .top-bar-right li {
+    float: right;
+    margin-right: 1rem;
+
+}
+.top-bar .wrap .top-bar-left li {
+    float: left;
+    margin-left: 1rem;
+
+}
+
+.top-bar a{
+    color: #b0b0b0;
+}
+/* 顶部导航栏end */
+
+/* 搜索框start */
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar-left{
+justify-content:space-aroundz;
+}
+
+/* 搜索框end */
